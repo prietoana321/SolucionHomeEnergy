@@ -1,0 +1,14 @@
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\bin\Debug\net7.0\SistemaVenta.Models.deps.json
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\bin\Debug\net7.0\SistemaVenta.Models.runtimeconfig.json
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\bin\Debug\net7.0\SistemaVenta.Models.dll
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\bin\Debug\net7.0\SistemaVenta.Models.pdb
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.csproj.AssemblyReference.cache
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.AssemblyInfoInputs.cache
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.AssemblyInfo.cs
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.csproj.CoreCompileInputs.cache
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.dll
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\refint\SistemaVenta.Models.dll
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.pdb
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\SistemaVenta.Models.genruntimeconfig.cache
+C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.Models\obj\Debug\net7.0\ref\SistemaVenta.Models.dll
