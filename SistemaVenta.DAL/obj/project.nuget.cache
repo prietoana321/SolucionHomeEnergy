@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "csIyMK3F6ooMUHu9KdWsIHSlNHPK+R1v+1GQZ+WiVFF7wlq/tgJRLa9VhQIyF530yzJ3X3fP8SWOzAWimcRvjw==",
+  "dgSpecHash": "iXge44FgkxIUUERLWI1oi8TwVNNvloUp/04hmRsG/aPJrSm5YRSt0xaTLqoiROq/JTu5lyhSRdOSz7goYZpg1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+  "projectFilePath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\priet\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\priet\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

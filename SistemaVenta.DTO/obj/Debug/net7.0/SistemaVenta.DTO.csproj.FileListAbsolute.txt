@@ -10,3 +10,15 @@ C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0
 C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\refint\SistemaVenta.DTO.dll
 C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.pdb
 C:\Users\priet\source\repos\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\ref\SistemaVenta.DTO.dll
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.deps.json
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.dll
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\bin\Debug\net7.0\SistemaVenta.DTO.pdb
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.csproj.AssemblyReference.cache
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.AssemblyInfoInputs.cache
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.AssemblyInfo.cs
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.csproj.CoreCompileInputs.cache
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.dll
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\refint\SistemaVenta.DTO.dll
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.pdb
+C:\Users\priet\source\repos\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.DTO\obj\Debug\net7.0\ref\SistemaVenta.DTO.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V9xJDER6kU5khv+ZQX1szunZRlUnInShteV4x6LU4prxXJb36+YyQJp+FgPuRhaAzowmX0GSTjFfZ5Powr3pWw==",
+  "dgSpecHash": "HpU6HNGSCR9L1xhHwH9uqmCfBTlPHAIW7PCz7oEQSBVL7U5wu260VH6eaO4E5tfnTuT3Zo3Wg5A1Ux91rvqwsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+  "projectFilePath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

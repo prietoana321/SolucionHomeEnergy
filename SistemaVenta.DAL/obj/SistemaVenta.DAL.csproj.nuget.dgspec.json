@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {}
+    "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
+    "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
         "projectName": "SistemaVenta.DAL",
-        "projectPath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
+        "projectPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DAL\\SistemaVenta.DAL.csproj",
         "packagesPath": "C:\\Users\\priet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.DAL\\obj\\",
+        "outputPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {
-                "projectPath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj"
+              "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {
+                "projectPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {
+    "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
+        "projectUniqueName": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
         "projectName": "SistemaVenta.Models",
-        "projectPath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
+        "projectPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
         "packagesPath": "C:\\Users\\priet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.Models\\obj\\",
+        "outputPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

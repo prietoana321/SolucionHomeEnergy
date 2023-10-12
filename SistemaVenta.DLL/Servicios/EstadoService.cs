@@ -48,7 +48,7 @@ namespace SistemaVenta.DLL.Servicios
                 var estadoCreado = await _estadoRepositorio.Crear(_mapper.Map<Estado>(modelo));
                 if (estadoCreado.IdEstado == 0)
                 {
-                    throw new TaskCanceledException("No se pudo crear el Cliente");
+                    throw new TaskCanceledException("No se pudo crear el estado");
                 }
                 return _mapper.Map<EstadoDTO>(estadoCreado);
 

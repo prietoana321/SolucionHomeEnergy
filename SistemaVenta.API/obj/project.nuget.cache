@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l/VNGqQUF39MYyy6zoNNqxtdt4oBLTqO8Kl0/vbZboafvdcQx7jqRpZJw559NXw82D+e5lyjyieHNL2TcVl7+A==",
+  "dgSpecHash": "9Ci1jUQIK7IoxBJF1UmfbHmvHxiE4gRZtoRKEacprSYSaaGxJ3J22G8xUyZbLJGtRcBcWuyZkRpIY9yaYrYmhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\priet\\source\\repos\\SolucionHomeEnergy\\SistemaVenta.API\\SistemaVenta.API.csproj",
+  "projectFilePath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.API\\SistemaVenta.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\priet\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\priet\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
