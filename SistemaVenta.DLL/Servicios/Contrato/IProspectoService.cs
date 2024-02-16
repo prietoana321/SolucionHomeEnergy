@@ -11,6 +11,8 @@ namespace SistemaVenta.DLL.Servicios.Contrato
     {
         Task<List<ProspectoDTO>> Lista();
         Task<ProspectoDTO> Crear(ProspectoDTO modelo);
+
+
         Task<bool> Editar(ProspectoDTO modelo);
         Task<bool> Eliminar(int id);
     }

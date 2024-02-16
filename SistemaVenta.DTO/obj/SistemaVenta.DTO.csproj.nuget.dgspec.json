@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {}
+    "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
+    "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
         "projectName": "SistemaVenta.DTO",
-        "projectPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
+        "projectPath": "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\SistemaVenta.DTO.csproj",
         "packagesPath": "C:\\Users\\priet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\obj\\",
+        "outputPath": "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

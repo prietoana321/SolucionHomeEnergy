@@ -43,10 +43,10 @@ namespace SistemaVenta.DLL.Servicios
         {
             try
             {
-                var prospectoCreado = await _clienteRepositorio.Crear(_mapper.Map<Cliente>(modelo));
-                if (prospectoCreado.IdCliente == 0)
+                var prospectoCreado = await _prospectoRepositorio.Crear(_mapper.Map<Prospecto>(modelo));
+                if (prospectoCreado.IdProspecto == 0)
                 {
-                    throw new TaskCanceledException("No se pudo crear el Cliente");
+                    throw new TaskCanceledException("No se pudo crear el Prospecto");
                 }
                 return _mapper.Map<ProspectoDTO>(prospectoCreado);
 
@@ -78,7 +78,6 @@ namespace SistemaVenta.DLL.Servicios
                 prospectoEncontrado.Contacto = prospectoModelo.Contacto;
                 prospectoEncontrado.RazonSocial = prospectoModelo.RazonSocial;
                 prospectoEncontrado.EsActivo = prospectoModelo.EsActivo;
-                prospectoEncontrado.Fecha = prospectoModelo.Fecha;
 
 
                 bool respuesta = await _prospectoRepositorio.Editar(prospectoEncontrado);

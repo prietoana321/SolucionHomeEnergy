@@ -92,7 +92,8 @@ namespace SistemaVenta.DLL.Servicios
             {
                 var usuarioModelo = _mapper.Map<Usuario>(modelo);
                 var usuarioEncontrado = await _usuarioRepositorio.Obtener(u => u.IdUsuario == usuarioModelo.IdUsuario);
-                if (usuarioEncontrado == null)
+                
+                if(usuarioEncontrado == null)
                 {
                     throw new TaskCanceledException("Usuario no existe");
                 }
@@ -104,7 +105,7 @@ namespace SistemaVenta.DLL.Servicios
 
                 bool respuesta = await _usuarioRepositorio.Editar(usuarioEncontrado);
 
-                if (respuesta == false)
+                if (!respuesta)
                 {
                     throw new TaskCanceledException("No se pudo editar");
                 }

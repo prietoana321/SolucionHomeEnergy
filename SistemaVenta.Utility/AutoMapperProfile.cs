@@ -121,12 +121,12 @@ namespace SistemaVenta.Utility
 
             #region Prospecto
             CreateMap<Prospecto, ProspectoDTO>()
-                .ForMember(destino =>
+            .ForMember(destino =>
                 destino.EsActivo,
                 opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0));
 
             CreateMap<ProspectoDTO, Prospecto>()
-                .ForMember(destino =>
+                 .ForMember(destino =>
                 destino.EsActivo,
                 opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false));
 

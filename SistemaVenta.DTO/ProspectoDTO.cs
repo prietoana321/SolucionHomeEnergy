@@ -28,8 +28,7 @@ namespace SistemaVenta.DTO
 
         public int? EsActivo { get; set; }
 
-        public DateTime? Fecha { get; set; }
 
-        public DateTime? FechaRegistro { get; set; }
+
     }
 }

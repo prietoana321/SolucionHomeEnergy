@@ -11,7 +11,7 @@ public partial class Venta
 
     public string? TipoPago { get; set; }
 
-    public decimal? Total { get; set; }
+    public decimal? Total{ get; set; }
 
     public DateTime? FechaRegistro { get; set; }
 

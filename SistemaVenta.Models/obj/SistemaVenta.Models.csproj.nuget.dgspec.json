@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {}
+    "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {
+    "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
+        "projectUniqueName": "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
         "projectName": "SistemaVenta.Models",
-        "projectPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
+        "projectPath": "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\SistemaVenta.Models.csproj",
         "packagesPath": "C:\\Users\\priet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\priet\\source\\repos\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\obj\\",
+        "outputPath": "C:\\Users\\priet\\OneDrive\\Escritorio\\AppSistemaHomeEnergy\\SolucionHomeEnergy\\SistemaVenta.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
