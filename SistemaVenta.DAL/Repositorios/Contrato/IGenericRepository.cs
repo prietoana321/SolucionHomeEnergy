@@ -17,5 +17,7 @@ namespace SistemaVenta.DAL.Repositorios.Contrato
         Task<bool> Eliminar(TModel modelo);
         //este realiza una consulta, trabaja con el modelo
         Task<IQueryable<TModel>> Consultar(Expression<Func<TModel, bool>> filtro =  null);
+
+        Task<bool> Add(TModel modelo);
     }
 }

@@ -82,5 +82,18 @@ namespace SistemaVenta.DAL.Repositorios
             //throw new NotImplementedException();
         }
 
+        public async Task<bool> Add(TModelo modelo)
+        {
+            try
+            {
+                _dbcontext.Set<TModelo>().Add(modelo);
+                //guardar cambios de manera asincrona asi:
+                await _dbcontext.SaveChangesAsync();
+                return true;
+            }
+            catch { throw; }
+            //  throw new NotImplementedException();
+        }
+
     }
 }
