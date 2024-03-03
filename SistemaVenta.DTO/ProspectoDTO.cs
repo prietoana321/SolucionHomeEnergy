@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,7 +29,6 @@ namespace SistemaVenta.DTO
         public string? Detalle { get; set; }
 
         public int? EsActivo { get; set; }
-
 
 
     }

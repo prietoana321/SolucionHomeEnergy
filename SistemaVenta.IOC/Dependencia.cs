@@ -13,6 +13,8 @@ using SistemaVenta.Utility;
 using SistemaVenta.DLL.Servicios.Contrato;
 using SistemaVenta.DLL.Servicios;
 
+
+
 namespace SistemaVenta.IOC
 {
     public static class Dependencia
@@ -39,6 +41,8 @@ namespace SistemaVenta.IOC
             services.AddScoped<IClienteService, ClienteService>();
             services.AddScoped<IProspectoService, ProspectoService>();
             services.AddScoped<IEstadoService, EstadoService>();
+            services.AddScoped<IEstadoService, EstadoService>();
+            services.AddScoped<IFile2Service, File2Service>();
             services.AddScoped<DbContext, DbhomeEnergyContext>();
 
         }

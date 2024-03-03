@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SistemaVenta.DAL.Repositorios.Contrato;
 using SistemaVenta.DLL.Servicios.Contrato;
@@ -23,16 +25,15 @@ namespace SistemaVenta.DLL.Servicios
         public ProspectoService(IGenericRepository<Cliente> clienteRepositorio, IGenericRepository<Prospecto> prospectoRepositorio, IMapper mapper)
         {
             _clienteRepositorio = clienteRepositorio;
-            _prospectoRepositorio = prospectoRepositorio;
             _mapper = mapper;
+            _prospectoRepositorio = prospectoRepositorio;
         }
         public async Task<List<ProspectoDTO>> Lista()
         {
             try
             {
-                var queryCliente = await _prospectoRepositorio.Consultar();
-                var listaProspectos = queryCliente;
-                return _mapper.Map<List<ProspectoDTO>>(listaProspectos);
+                var queryProducto = await _prospectoRepositorio.Consultar();
+                return _mapper.Map<List<ProspectoDTO>>(queryProducto).ToList();
             }
             catch
             {
@@ -60,10 +61,11 @@ namespace SistemaVenta.DLL.Servicios
         public async Task<bool> Editar(ProspectoDTO modelo)
         {
 
+
             try
             {
                 var prospectoModelo = _mapper.Map<Prospecto>(modelo);
-                var prospectoCreado = await _prospectoRepositorio.Crear(_mapper.Map<Prospecto>(modelo));
+                var prospectoCreado = await _prospectoRepositorio.Editar(_mapper.Map<Prospecto>(modelo));
                 var prospectoEncontrado = await _prospectoRepositorio.Obtener(u => u.IdProspecto == prospectoModelo.IdProspecto);
                 if (prospectoEncontrado == null)
                 {

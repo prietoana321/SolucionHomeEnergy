@@ -85,7 +85,8 @@ namespace SistemaVenta.Utility
                 .ForMember(destino =>
                 destino.Total,
                 opt => opt.MapFrom(origen => Convert.ToDecimal(origen.TotalTexto, new CultureInfo("es-CO")))
-                );
+                ).ForMember(destino => destino.FechaRegistro, opt => opt.MapFrom(origen => Convert.ToDateTime(origen.FechaRegistro)));
+
 
             #endregion
 

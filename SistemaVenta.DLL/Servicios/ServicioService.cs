@@ -24,7 +24,19 @@ namespace SistemaVenta.DLL.Servicios
             _servicioRepositorio = servicioRepositorio;
             _mapper = mapper;
         }
-
+        public async Task<List<ServicioDTO>> Lista()
+        {
+            try
+            {
+                var queryProducto = await _servicioRepositorio.Consultar();
+                var listaProductos = queryProducto.Include(cat => cat.IdCategoriaNavigation).ToList();
+                return _mapper.Map<List<ServicioDTO>>(listaProductos).ToList();
+            }
+            catch
+            {
+                throw;
+            }
+        }
         public async Task<ServicioDTO> Crear(ServicioDTO modelo)
         {
             try
@@ -93,18 +105,6 @@ namespace SistemaVenta.DLL.Servicios
             }
         }
 
-        public async Task<List<ServicioDTO>> Lista()
-        {
-            try
-            {
-                var queryProducto = await _servicioRepositorio.Consultar();
-                var listaProductos = queryProducto.Include(cat => cat.IdCategoriaNavigation).ToList();
-                return _mapper.Map<List<ServicioDTO>>(listaProductos).ToList();
-            }
-            catch
-            {
-                throw;
-            }
-        }
+      
     }
 }
