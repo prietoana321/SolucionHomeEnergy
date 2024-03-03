@@ -170,6 +170,34 @@ namespace SistemaVenta.Utility
             #region Estado
             CreateMap<Estado, EstadoDTO>().ReverseMap();
             #endregion Estado
+
+            #region FileData
+            CreateMap<FileData, FileDataDTO>()
+                .ForMember(destino => destino.Image,
+                opt => opt.MapFrom(origen => origen.IdImagenNavigation.Nombre)
+                );
+
+            CreateMap<FileDataDTO, FileData>()
+                .ForMember(destino => destino.IdImagenNavigation,
+                opt => opt.Ignore()
+                );
+            #endregion FileData
+
+            #region FileRecord
+            CreateMap<FileData, FileRecordDTO>()
+                .ForMember(destino => destino.FileFormat,
+                opt => opt.MapFrom(origen => origen.Extension)
+                ).ForMember(destino => destino.ContentType,
+                opt => opt.MapFrom(origen => origen.MimeType)
+                );
+
+            CreateMap<FileRecordDTO, FileData>()
+                .ForMember(destino => destino.Extension,
+                opt => opt.MapFrom(origen => origen.FileFormat))
+                .ForMember(destino => destino.MimeType,
+                opt => opt.MapFrom(origen => origen.ContentType)
+                );
+            #endregion FileRecord
         }
 
     }
