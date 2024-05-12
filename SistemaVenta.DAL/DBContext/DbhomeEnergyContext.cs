@@ -15,7 +15,9 @@ public partial class DbhomeEnergyContext : DbContext
         : base(options)
     {
     }
+   
 
+    
     public virtual DbSet<Categoria> Categoria { get; set; }
 
     public virtual DbSet<Cliente> Clientes { get; set; }
@@ -25,6 +27,10 @@ public partial class DbhomeEnergyContext : DbContext
     public virtual DbSet<DetalleVenta> DetalleVenta { get; set; }
 
     public virtual DbSet<Estado> Estados { get; set; }
+
+    public virtual DbSet<FileData> FileData { get; set; }
+
+    public virtual DbSet<Imagen> Imagens { get; set; }
 
     public virtual DbSet<Menu> Menus { get; set; }
 
@@ -178,6 +184,46 @@ public partial class DbhomeEnergyContext : DbContext
                 .HasColumnName("fechaRegistro");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("nombre");
+        });
+        modelBuilder.Entity<FileData>(entity =>
+        {
+            entity.HasKey(e => e.IdFile).HasName("PK__FileData__775AFE72BA02EAFF");
+
+            entity.Property(e => e.IdFile).HasColumnName("idFile");
+            entity.Property(e => e.Extension)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("extension");
+            entity.Property(e => e.IdImagen).HasColumnName("idImagen");
+            entity.Property(e => e.MimeType)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("mimeType");
+            entity.Property(e => e.Name)
+                .HasMaxLength(500)
+                .IsUnicode(false)
+                .HasColumnName("name");
+            entity.Property(e => e.Path)
+                .HasMaxLength(500)
+                .IsUnicode(false)
+                .HasColumnName("path");
+
+            entity.HasOne(d => d.IdImagenNavigation).WithMany(p => p.FileData)
+                .HasForeignKey(d => d.IdImagen)
+                .HasConstraintName("FK__FileData__idImag__398D8EEE");
+        });
+
+        modelBuilder.Entity<Imagen>(entity =>
+        {
+            entity.HasKey(e => e.IdImagen).HasName("PK__Imagen__EA9A7136B7F61C51");
+
+            entity.ToTable("Imagen");
+
+            entity.Property(e => e.IdImagen).HasColumnName("idImagen");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("nombre");
         });

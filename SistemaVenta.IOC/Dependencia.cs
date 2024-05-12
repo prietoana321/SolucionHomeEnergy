@@ -31,6 +31,8 @@ namespace SistemaVenta.IOC
             services.AddScoped<IVentaRepository, VentaRepository>();
             services.AddAutoMapper(typeof(AutoMapperProfile));
 
+            services.AddScoped<IFileService, FileService>();
+            services.AddScoped<IImageService, ImageService>();
             services.AddScoped<IRolService, RolService>();
             services.AddScoped<IUsuarioService, UsuarioService>();
             services.AddScoped<ICategoriaService, CategoriaService>();
