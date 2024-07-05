@@ -254,3 +254,6 @@ C:\Users\priet\OneDrive\Escritorio\AppSistemaHomeEnergy\SolucionHomeEnergy\Siste
 C:\Users\priet\OneDrive\Escritorio\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.genruntimeconfig.cache
 C:\Users\priet\OneDrive\Escritorio\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.API\obj\Debug\net7.0\ref\SistemaVenta.API.dll
 C:\Users\priet\OneDrive\Escritorio\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\priet\OneDrive\Escritorio\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.API\bin\Debug\net7.0\MailKit.dll
+C:\Users\priet\OneDrive\Escritorio\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.API\bin\Debug\net7.0\MimeKit.dll
+C:\Users\priet\OneDrive\Escritorio\AppSistemaHomeEnergy\SolucionHomeEnergy\SistemaVenta.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll

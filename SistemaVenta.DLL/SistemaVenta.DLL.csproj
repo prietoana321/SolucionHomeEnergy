@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SistemaVenta.DAL\SistemaVenta.DAL.csproj" />
     <ProjectReference Include="..\SistemaVenta.DTO\SistemaVenta.DTO.csproj" />
     <ProjectReference Include="..\SistemaVenta.Models\SistemaVenta.Models.csproj" />

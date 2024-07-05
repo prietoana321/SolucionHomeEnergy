@@ -29,6 +29,7 @@ namespace SistemaVenta.IOC
             //ahora utilizamos un modelo en especifico
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IVentaRepository, VentaRepository>();
+            services.AddScoped<IEmailService, EmailService>();
             services.AddAutoMapper(typeof(AutoMapperProfile));
 
             services.AddScoped<IFileService, FileService>();

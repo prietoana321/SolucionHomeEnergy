@@ -238,7 +238,29 @@ namespace SistemaVenta.API.Controllers
                     imagen.Nombre = fileResult.Item2;
                     path = fileResult.Item3;// getting name of image
                 }
+
                 FileRecordDTO file = new FileRecordDTO();
+              //  var idFile= await _fileServicio.GetAllFile();
+                var numero=0;
+
+                //crear un int inicial en cero y compara con los id, si es menor que sea igual al que esta  y si no, que sea el que era y luego ese int aumenta en 1
+                // List<int> nums = new List<int>() { 1, 2, 3, 4, 5 };
+
+                // for (var i = 0; i < nums.Count; i++)
+                // {
+                // Console.WriteLine(nums[i]);
+                //  numero = i;
+                // }
+
+                List<FileRecordDTO> idFile = await _fileServicio.GetAllFile();
+
+                for (var i = 0; i < idFile.Count; i++)
+                {
+                    Console.WriteLine(idFile[i]);
+                    numero = i;
+                }
+
+                file.IdFile =numero+2;
                 file.Path = path;
                 file.Name = imagen.Nombre;
                 file.FileFormat = Path.GetExtension(imagen.ImageFile.FileName);
