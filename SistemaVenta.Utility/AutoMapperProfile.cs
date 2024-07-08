@@ -198,6 +198,10 @@ namespace SistemaVenta.Utility
                 opt => opt.MapFrom(origen => origen.ContentType)
                 );
             #endregion FileRecord
+
+          
+
+
         }
 
     }

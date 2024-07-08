@@ -17,6 +17,8 @@ public partial class Servicio
 
     public DateTime? FechaRegistro { get; set; }
 
+   // public virtual ICollection<CotizacionServicio> CotizacionServicios { get; } = new List<CotizacionServicio>();
+
     public virtual ICollection<DetalleVenta> DetalleVenta { get; } = new List<DetalleVenta>();
 
     public virtual Categoria? IdCategoriaNavigation { get; set; }

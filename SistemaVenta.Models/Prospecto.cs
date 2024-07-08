@@ -32,4 +32,5 @@ public partial class Prospecto
     public DateTime? FechaRegistro { get; set; }
 
     public virtual ICollection<Cliente> Clientes { get; } = new List<Cliente>();
+
 }

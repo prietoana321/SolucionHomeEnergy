@@ -25,6 +25,7 @@ namespace SistemaVenta.DTO
         public int? Idauditor { get; set; }
 
         public string? DescripcionAuditor { get; set; }
+
         public string? Detalle { get; set; }
 
         public int? EsActivo { get; set; }

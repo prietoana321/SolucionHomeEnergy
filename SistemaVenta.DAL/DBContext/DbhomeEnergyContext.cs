@@ -15,14 +15,16 @@ public partial class DbhomeEnergyContext : DbContext
         : base(options)
     {
     }
+
    
 
-    
     public virtual DbSet<Categoria> Categoria { get; set; }
 
     public virtual DbSet<Cliente> Clientes { get; set; }
 
     public virtual DbSet<ClienteUsuario> ClienteUsuarios { get; set; }
+
+    
 
     public virtual DbSet<DetalleVenta> DetalleVenta { get; set; }
 
@@ -141,6 +143,7 @@ public partial class DbhomeEnergyContext : DbContext
                 .HasForeignKey(d => d.IdUsuario)
                 .HasConstraintName("FK__ClienteUs__idUsu__4E88ABD4");
         });
+
 
         modelBuilder.Entity<DetalleVenta>(entity =>
         {
